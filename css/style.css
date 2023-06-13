@@ -1,0 +1,27 @@
+/* palette colori */
+/* Dark #1f0322 */
+/* Soft dark #9F838C */
+/* Soft #BAABBD */
+
+
+/* font-family: 'Allura', cursive;
+
+font-family: 'Noto Sans', sans-serif; */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Noto+Sans:wght@200&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #9F838C;
+    color: #1f0322;
+    font-size: 30px;
+  }
