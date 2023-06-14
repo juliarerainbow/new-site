@@ -14,14 +14,57 @@ font-family: 'Noto Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Noto+Sans:wght@200&display=swap');
 
 
-body{
+body {
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .header {
-    padding: 60px;
+
+
     text-align: center;
     background: #9F838C;
+    background-image: linear-gradient(#ebd5ef, #BAABBD, #9F838C);
     color: #1f0322;
     font-size: 30px;
-  }
+}
+
+.header h1 {
+    margin: auto 0;
+    padding: 70px;
+    font-family: 'Allura', cursive;
+    font-size: 130px;
+}
+
+.header nav,
+footer {
+    padding: 30px;
+    background-color: #1f0322;
+}
+
+.header a {
+    margin: 0 50px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    height: 100vh;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+footer a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
